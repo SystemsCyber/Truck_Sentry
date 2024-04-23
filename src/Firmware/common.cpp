@@ -399,7 +399,7 @@ bool check_for_attack(Target *target){
       target->np_l2rules[i]->last_time = time_tt;
     }
     if (target->np_l2rules[i]->cth >= target->np_l2rules[i]->threshold){
-      print("DEAD!! -- l2: %x\n", target->np_l2rules[i]);
+//      print("DEAD!! -- l2: %x\n", target->np_l2rules[i]);
       return true;
     }
   }
